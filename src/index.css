@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Regular';
+  src: local('DejaVuSans-webfont'), url('./assets/DejaVuSans-webfont.woff') format('woff');
+ 
+}
+@font-face {
+  font-family: 'Light';
+  src: local('DejaVuSans-ExtraLight-webfont'), url('./assets/DejaVuSans-ExtraLight-webfont.woff') format('woff');
+
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: local('DejaVuSans-Bold-webfont'), url('./assets/DejaVuSans-Bold-webfont.woff') format('woff');
+
+}
+

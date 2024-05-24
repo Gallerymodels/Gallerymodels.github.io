@@ -1,0 +1,25 @@
+import { useState } from 'react'
+import Header from './components/Header/Header'
+import Main from './components/Main/Main'
+import Portfolio from './components/Portfolio/Portfolio'
+import Gear from './components/Gear/Gear'
+import Contact from './components/Contact/Contact'
+import {Routes, Route} from 'react-router-dom'
+import './App.css'
+
+function App() {
+
+  return (
+    <div>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/gear' element={<Gear />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+    </div>
+  )
+}
+
+export default App
