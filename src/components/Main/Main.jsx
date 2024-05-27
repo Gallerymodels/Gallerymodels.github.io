@@ -3,7 +3,7 @@ import TakaIshii from '../../assets/images/TakaIshiiGallery_6b.jpg'
 const Main = () => {
   return (
     <>
-    <div className='p-0 mt-12'>
+    <div className='p-4 mt-12'>
         <div className='whitespace-pre-wrap font-dejaLight text-xs/4 md:text-sm/7 text-left text-gray '>
         Bespoke architectural scale models of gallery spaces that are made to order. Models range from basic foamcore or are laser cut using a variety of durable materials.<br />
         Upon request gallery walls can be made magnetic to ensure the easy application of wall-based artworks. Details such as acrylic windows, steps and other

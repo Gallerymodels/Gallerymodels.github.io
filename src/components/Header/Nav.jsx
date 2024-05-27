@@ -32,7 +32,7 @@ const Nav = () => {
         </div>    
     </nav>
     {isOpen && (
-        <div className='flex flex-col items-center basis-full font-dejaLight text-lg p-3    '>
+        <div className='flex flex-col items-center basis-full font-dejaLight text-lg p-3'>
             <NavLinks />
         </div>
     )}
