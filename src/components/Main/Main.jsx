@@ -1,5 +1,5 @@
 import React from 'react'
-import TakaIshii from '../../assets/TakaIshiiGallery_6b.jpg'
+import TakaIshii from './TakaIshiiGallery_6b.jpg'
 const Main = () => {
   return (
     <>
