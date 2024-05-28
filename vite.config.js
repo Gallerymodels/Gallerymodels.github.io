@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   assetsInclude: 'src/assets/**',
-  base: '/gallery-models',
+  base: '/gallery-models/',
   plugins: [react()],
 })
