@@ -21,7 +21,7 @@ const Lightbox = ({photos}) => {
 
   return (
     <div className='w-full'>
-        <ul className='pswp-gallery flex flex-row flex-nowrap justify-center items-end' id='gallery--zoom-transition' key={photos.title}>
+        <ul className='pswp-gallery flex flex-row flex-nowrap justify-start items-end' id='gallery--zoom-transition' key={photos.title}>
         {photos.map((photo, idx) => (
             <li key={idx}>
                 <div>

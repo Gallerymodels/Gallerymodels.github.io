@@ -1,5 +1,6 @@
-import { useState } from 'react'
+
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import Main from './components/Main/Main'
 import Portfolio from './components/Portfolio/Portfolio'
 import Gear from './components/Gear/Gear'
@@ -18,6 +19,7 @@ function App() {
         <Route path='/gear' element={<Gear />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   )
 }

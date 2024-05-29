@@ -22,7 +22,7 @@ const Nav = () => {
   return (
     <>
     <nav className='flex w-1/3 justify-end'>
-        <div className='hidden w-full md:flex justify-between font-dejaLight text-lg'>
+        <div className='hidden w-full md:flex justify-between font-dejaLight text-sm'>
             <NavLinks />           
         </div>
         <div className='md:hidden'>
@@ -32,7 +32,7 @@ const Nav = () => {
         </div>    
     </nav>
     {isOpen && (
-        <div className='flex flex-col items-center basis-full bg-white font-dejaLight text-lg p-3'>
+        <div className='flex flex-col items-center basis-full bg-white font-dejaLight text-sm p-3'>
             <NavLinks />
         </div>
     )}
