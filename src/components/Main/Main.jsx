@@ -18,7 +18,7 @@ const Main = () => {
         </article>
     </div>
     <div className='mt-12 flex flex-col items-center justify-center'>
-    <img src={TakaIshii} alt="Taka Ishii Gallery" className='w-3/4' />
+    <img src={TakaIshii} alt="Taka Ishii Gallery" className='w-full' />
     </div>
     </>
   )
