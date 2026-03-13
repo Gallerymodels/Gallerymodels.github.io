@@ -5,7 +5,7 @@ import Main from './components/Main/Main'
 import Portfolio from './components/Portfolio/Portfolio'
 import Gear from './components/Gear/Gear'
 import Contact from './components/Contact/Contact'
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route} from 'react-router'
 import './App.css'
 
 function App() {
