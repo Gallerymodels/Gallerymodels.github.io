@@ -1,14 +1,13 @@
 import { createClient } from "@sanity/client";
-import imageUrlBuilder from "@sanity/image-url";
+import createImageUrlBuilder from "@sanity/image-url";
 
 export const sanityClient = createClient({
   projectId: "x3ce86hh",
   dataset: "production",
   apiVersion: "2024-05-16",
-  useCdn: true
- ,
+  useCdn: true,
 });
-const builder = imageUrlBuilder(sanityClient);
+const builder = createImageUrlBuilder(sanityClient);
 
 export function urlFor(source) {
   return builder.image(source);
@@ -36,6 +35,7 @@ export async function getGear() {
     title,
     description,
     price
-  }`)
-  return data
+  }`);
+  return data;
 }
+
